@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="DO"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:id="@+id/nota"/>
+
+    <devadvance.circularseekbar.CircularSeekBar
+        android:id="@+id/circularSeekBar1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="0dp"
+        app:circle_color="#f2a32b"
+        app:pointer_color="#2ebdf1"
+        app:pointer_halo_color="#2ebdf1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Instrumento"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:id="@+id/instrumento"/>
+
+
+</LinearLayout>
